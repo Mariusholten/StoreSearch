@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  margin: 0%;
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+  margin-bottom: 2%;
+}
+
+.searchBar{
+  margin: 3%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 400px;
+  gap: 2%;
+}
+
+.header {
+  font-size: xx-large;
+  margin: 5%;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 7%;
+  border-radius: 1rem;
+  margin: 5%;
+}
+
+.cardLayout {
+  display: grid; 
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+}
+
